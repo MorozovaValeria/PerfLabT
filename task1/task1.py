@@ -1,5 +1,4 @@
-str_input = input()
-n, m = str_input.split(' ')
+n, m = map(int, input().split(' '))
 
 n = int(n)
 m = int(m)
