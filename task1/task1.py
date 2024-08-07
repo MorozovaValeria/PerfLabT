@@ -1,5 +1,8 @@
-n = int(input())
-m = int(input())
+str_input = input()
+n, m = str_input.split(' ')
+
+n = int(n)
+m = int(m)
 
 answer = []
 first_list = m * list(range(1, n + 1))
